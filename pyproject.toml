@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "004-streamlit-text-summarization"
+version = "0.1.0"
+description = ""
+authors = ["julio colomer <info@aiaccelera.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+streamlit = "^1.37.0"
+langchain = "^0.2.11"
+langchain-openai = "^0.1.19"
+tiktoken = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
